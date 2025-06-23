@@ -35,7 +35,6 @@ const BottomTabNavigator = ({ route }) => {
       display: 'flex',
       height: Width * 0.18,
       paddingBottom: Width * 0.03,
-      // paddingTop: Width * 0.02,
     };
   };
 
