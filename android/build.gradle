@@ -10,6 +10,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://transistorsoft.bintray.com/android' }  // ✅ Add this line
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
